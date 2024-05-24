@@ -20,6 +20,7 @@ Appuyez sur "Compile 1_ Storage.sol.
 
 Cliquer sur l'icône “Deploy and Run Transactions" se trouvant aussi à gauche de l'IDE.
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20124053.png)
+
 Appuyez sur l'icône orange Deploy et vous trouverez donc une nouvelle interface qui a été créée dans "Deployed/Unpinned Contracts".
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20124120.png)
 
