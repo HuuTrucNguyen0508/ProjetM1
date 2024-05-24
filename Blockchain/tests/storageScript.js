@@ -1,3 +1,4 @@
+//ABI du smart contract. Nécessaire pour que le script puisse fonctionne 
 const contractABI = [
 	{
 		"inputs": [],
@@ -127,6 +128,7 @@ const contractABI = [
 	}
 ];
 
+//Fonction qui va calculer la trilateration code pris de https://github.com/TBMSP/Trilateration 
 function Compute(p1,p2,p3){
     var a;
     var b;
@@ -163,8 +165,6 @@ function Compute(p1,p2,p3){
             i=null;
         }
     }
-    //i[0] *= Math.pow(10, 15);
-    //i[1] *= Math.pow(10, 15);
     return [i[0],i[1]];
 }
 
@@ -203,18 +203,14 @@ function E(a,b,c,d){
 }
 
 function floatToInt256(value) {
-    // Scale the floating-point value to keep up to 5 decimal places
     var scaledValue = value * 1e8;
-
-    // Round the scaled value to the nearest integer
     var intValue = Math.round(scaledValue);
-
-    // Convert the rounded integer value to a BigInt
+	
     intValue = BigInt(intValue);
-
     return intValue;
 }
 
+//Fonction pour enregistrer les informations dans la blockchain
 async function storeCoordinates(p1, p2, p3, time1, time2, time3, ID1, ID2, ID3, speed1, speed2, speed3, contractInstance) {
     const computedCoordinates = Compute(p1, p2, p3);
 
@@ -241,6 +237,7 @@ async function storeCoordinates(p1, p2, p3, time1, time2, time3, ID1, ID2, ID3, 
     
 }
 
+//Fonction pour recuperer les informations de la blockchain
 async function getCoordinates(contractInstance) {
     try {
         const result = await contractInstance.methods.getCoordinates().call();
@@ -269,7 +266,7 @@ async function getCoordinates(contractInstance) {
     }
 }
 
-
+//Fonction main
 async function main() {
     const contractAddress = '0x0813d4a158d06784FDB48323344896B2B1aa0F85';
 
