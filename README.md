@@ -34,3 +34,7 @@ Copiez l'adresse du contrat et remplacez le dans "contractAddress" qui se trouve
 
 Vous pouvez maintenant appuyer sur le bouton run script et voilà, les informations ont été stockées dans la blockchain.
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20125253.png)
+
+Vous pourrez ensuite reprendre ces informations en appuyant sur le bouton "getCoordinates" en sachant que cela est fait directement aussi apres que vous cliquez sur "Run script".
+![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20125826.png)
+
