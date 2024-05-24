@@ -291,8 +291,7 @@ async function main() {
 
     await storeCoordinates(point1, point2, point3, time1, time2, time3, ID1, ID2, ID3, speed1, speed2, speed3, contractInstance);
 
-    // Retrieve coordinates from the deployed contract
-    await getCoordinates(contractInstance);
+    await getCoordinates(contractInstance); //La première instance sera vide car l'appel de cette fonction se termine avant le stockage des informations dans la blockchain et donc elle retournera toujours les dernières informations qui ont ete enregistrées 
 }
 
 main();
