@@ -1,0 +1,198 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCoordinates",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "lat",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "lon",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_time1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_time2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_time3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_ID1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ID2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ID3",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_speed1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_speed2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_speed3",
+						"type": "uint256"
+					}
+				],
+				"name": "storeCoordinates",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store latitude, longitude, time, ID, and speed coordinates",
+			"kind": "dev",
+			"methods": {
+				"getCoordinates()": {
+					"details": "Return latitude, longitude, time, ID, and speed coordinates",
+					"returns": {
+						"_0": "Latitude, longitude, time, ID, and speed coordinates"
+					}
+				},
+				"storeCoordinates(int256,int256,uint256,uint256,uint256,string,string,string,uint256,uint256,uint256)": {
+					"details": "Store latitude, longitude, time, ID, and speed coordinates",
+					"params": {
+						"_ID1": "Identifier",
+						"_ID2": "Identifier",
+						"_ID3": "Identifier",
+						"_speed1": "Speed in km/h",
+						"_speed2": "Speed in km/h",
+						"_speed3": "Speed in km/h",
+						"_time1": "Time of recording",
+						"_time2": "Time of recording",
+						"_time3": "Time of recording",
+						"lat": "Latitude coordinate",
+						"lon": "Longitude coordinate"
+					}
+				}
+			},
+			"title": "CoordinateStorage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Storage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xc27277ebcfba4dc28ff67e13bf5b05af392e9b865ebdda268c3373524cf2c4ad",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://926f771073c2b8effafce0df21162cbfc0970b103c3a8432307ca29905efedf2",
+				"dweb:/ipfs/QmUYRLpTnMWhYcExCtW3JhFqV7MUesS2vCN5qAUJbYGxQ9"
+			]
+		}
+	},
+	"version": 1
+}
