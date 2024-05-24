@@ -12,6 +12,7 @@ zebi
 ## Truc
 
 Pour exécuter la partie blockchain, de-zippe le dossier Basic -1 puis l'importer dans RemixIDE. 
+
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20125456.png)
 
 A partir de la, ouvrez le dossier "contracts" et puis appuyez sur le fichier Storage.sol. Ouvrez aussi le dossier "test" et cliquez sur le fichier "storageScripts".
