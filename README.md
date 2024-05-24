@@ -16,6 +16,7 @@ Pour exécuter la partie blockchain, de-zippe le dossier Basic -1 puis l'importe
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20125456.png)
 
 A partir de la, ouvrez le dossier "contracts" et puis appuyez sur le fichier Storage.sol. Ouvrez aussi le dossier "test" et cliquez sur le fichier "storageScripts".
+
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20124018.png)
 
 Ensuite vous devrez appuyer sur l'icône “Solidity Compiler" qui se trouve tout à gauche de l'interface IDE. 
