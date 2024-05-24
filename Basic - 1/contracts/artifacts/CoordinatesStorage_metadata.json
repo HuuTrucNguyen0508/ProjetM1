@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCoordinates",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latitude",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "longitude",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "lat",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "lon",
+						"type": "int256"
+					}
+				],
+				"name": "storeCoordinates",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store latitude and longitude coordinates",
+			"kind": "dev",
+			"methods": {
+				"getCoordinates()": {
+					"details": "Return latitude and longitude ",
+					"returns": {
+						"_0": "Latitude and longitude coordinates"
+					}
+				},
+				"storeCoordinates(int256,int256)": {
+					"details": "Store latitude and longitude",
+					"params": {
+						"lat": "Latitude coordinate",
+						"lon": "Longitude coordinate"
+					}
+				}
+			},
+			"title": "CoordinateStorage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "CoordinatesStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x200b5d9cbc96b312b5ccc1ee2246fcbfeb821f5a5a7c4bd8b3f24c5c0639a4d3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6c556448ec684f70805572a183b62a9c4034cc0001382dda0e105fb0bbe32744",
+				"dweb:/ipfs/QmYPjptqa7fJnuYH6b8imqEB1kTtwWY7f7Z3xf6iqg1H4Z"
+			]
+		}
+	},
+	"version": 1
+}
