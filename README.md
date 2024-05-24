@@ -25,8 +25,8 @@ Cliquer sur l'icône “Deploy and Run Transactions" se trouvant aussi à gauche
 Appuyez sur l'icône orange Deploy et vous trouverez donc une nouvelle interface qui a été créée dans "Deployed/Unpinned Contracts".
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20124120.png)
 
-Copiez l'adresse du contrat et remplacez le dans "contractAddress". 
+Copiez l'adresse du contrat et remplacez le dans "contractAddress" qui se trouve a la fin du fichier "storageScripts" dans la fonction main. 
 ![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20124738.png)
 
 Vous pouvez maintenant appuyer sur le bouton run script et voilà, les informations ont été stockées dans la blockchain.
-
+![Alt Text](https://github.com/HuuTrucNguyen0508/ProjetM1/blob/main/Images/Screenshot%202024-05-24%20125253.png)
