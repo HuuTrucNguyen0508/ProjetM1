@@ -6,8 +6,7 @@ Le fichier "sim-wifi.cc" est le fichier a executé pour obtenir la simulation gr
 
 ## Paul
 
-zebi
-
+En .cpp vous trouverez l'ensemble du code possible pour les différents appareils (device, sensor, access point) comprenant un calcul simple de la trilatération, bien sur cela doit être alors lié avec la blockchain pour utiliser le bon algo de trilatération et ensuite créer des blocks qui seront envoyé a la blockchain.
 
 ## Truc
 
