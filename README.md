@@ -1,14 +1,17 @@
+## Lien de la présentation 
 
-# Ns3
+https://www.canva.com/design/DAGFyLlshOI/fjRAc5ZE143k1rNj58ZzxA/edit
+
+## Ns3
 
 Le fichier "sim-wifi.cc" est le fichier a executé pour obtenir la simulation grâce à ns3. Celui-ci créera un fichier "wifi-sim-anim.xml" qui sera le fichier a importer dans netAnim afin de visualiser la simulation. Après l'execution il y aura également des fichiers représantant les traces de chaque "appareil" qu'on peut ouvrir avec wireshark pour analyser le traffic.
 
 
-## Paul
+## .cc
 
 En .cpp vous trouverez l'ensemble du code possible pour les différents appareils (device, sensor, access point) comprenant un calcul simple de la trilatération, bien sûre cela doit être alors lié avec la blockchain pour utiliser le bon algo de trilatération et ensuite créer des blocks qui seront envoyé a la blockchain.
 
-## Truc
+## BlockChain
 
 Pour exécuter la partie blockchain, de-zippe le dossier Basic -1 puis l'importer dans RemixIDE. 
 
