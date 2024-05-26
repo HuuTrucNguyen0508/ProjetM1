@@ -31,15 +31,17 @@ Descriptif: Ce papier propose un algorithme qui permet d’augmenter l'efficacit
 calcul du betweenness d’un noeud (le nombre de chemin qui passe a traver ce noeud
 spécifiquement et concerne tous les noeux du graphes) grâce à la proposition de
 nouveaux lemme
+
 6 Amir H, Andrew A, Andrew T, Marc N, Rahul G. Helium: A Decentralized Wireless
 Network. 2018; : 20.
 Descriptif : Ce document scientifique nous montre comment helium fonctionne avec le
 rôle des mineurs dans la blockchain, avec la proof of coverage et la proof of
 serialization et comment ces deux preuves permettent la création d’une preuve de
 localisation.
+
 7 Kaishun Wu, Jiang Xiao, Youwen Yi, Min Gao, and Lionel M. Ni. 2012. FILA:
 Fine-grained indoor localization. In 2012 Proceedings IEEE INFOCOM, March 2012.
-2210–2218. . https://doi.org/10.1109/INFCOM.2012.6195606
+2210–2218. https://doi.org/10.1109/INFCOM.2012.6195606.
 Descriptif: Ce papier propose une nouvelle méthode de calcul de distance à l'intérieur
 entre un appareil et un point d'accès. Il propose d’utiliser les valeurs qu’apportent CSI
 provenant des sous-couches de la méthode OFDMA (utilisé pour la 4G). Le CSI
